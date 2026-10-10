@@ -1,0 +1,17 @@
+package live_coding_session_7.class_problems.problem4;
+
+public class Blender extends KitchenTool implements Washable {
+    public Blender() {
+        super();
+    }
+
+    @Override
+    public String prepare() {
+        return "Blending at speed " + getSpeedLevel();
+    }
+
+    @Override
+    public String clean() {
+        return "Blender rinsed and dried";
+    }
+}
